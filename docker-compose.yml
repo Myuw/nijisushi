@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  front:
+    container_name: svelte-front
+    restart: always
+    build: .
+    ports:
+      - "5000:80"

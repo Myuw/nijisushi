@@ -1,0 +1,25 @@
+{
+  "name": "Nijisuhi",
+  "strapline": "Japonais au cœur du Marais parisien 🍣",
+  "contact": {
+    "streetAddress": ["15 rue des Archives", " Paris", "75004", "FR"],
+    "coords": { "lon": 48.85840726047374, "lat": 2.354876740881198 },
+    "phone": "+33142787127"
+  },
+  "hours": [
+    "Lundi - 12h-14h30 et 19h-22h30",
+    "Mardi - 12h-14h30 et 19h-22h30",
+    "Mercredi - 12h-14h30 et 19h-22h30",
+    "Jeudi - 12h-14h30 et 19h-22h30",
+    "Vendredi - 12h-14h30 et 19h-22h30",
+    "Samedi - 12h-14h30 et 19h-22h30",
+    "Dimanche - 19h-23h"
+  ],
+  "social": [
+    {
+      "channel": "Instagram",
+      "displayName": "@nijisushi_paris",
+      "url": "https://www.instagram.com/nijisushi_paris/?hl=fr"
+    }
+  ]
+}

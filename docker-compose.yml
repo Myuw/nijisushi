@@ -4,6 +4,11 @@ services:
   front:
     container_name: svelte-front
     restart: always
-    build: .
+    image: svelte-front-image
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ".:/app"
     ports:
-      - "5000:80"
+      - "3000:3000"

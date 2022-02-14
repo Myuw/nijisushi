@@ -1,23 +1,22 @@
 {
-  "name": "svelte-app",
+  "name": "niji",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "vite",
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "serve": "vite preview"
   },
+  "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.0.0"
+    "vite": "^2.5.1",
+    "vite-plugin-solid": "^2.0.3",
+    "contentful": "^7.14.6",
+    "contentfull-belly-styles": "0.2.0-alpha"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "solid-app-router": "^0.1.6",
+    "solid-js": "^1.1.1"
   }
 }

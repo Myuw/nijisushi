@@ -1,0 +1,74 @@
+[
+  {
+    "title": "A la carte, 1ère page",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/entree1.jpg"
+    }
+  },
+  {
+    "title": "A la carte, 2ème page",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/entree2.jpg"
+    }
+  },
+  {
+    "title": "Meni yakitori",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/yakitori.jpg"
+    }
+  },
+  {
+    "title": "Menu chirashi",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/chirashi.jpg"
+    }
+  },
+  {
+    "title": "Menu niji, 1ère page",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/niji1.jpg"
+    }
+  },
+  {
+    "title": "Menu niji, 2ème page",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/niji2.jpg"
+    }
+  },
+  {
+    "title": "Menu bateau",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/bateau.jpg"
+    }
+  },
+  {
+    "title": "Menu plats chauds",
+    "description": "",
+    "category": ["Lunch", "Dinner"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/chaud.jpg"
+    }
+  },
+  {
+    "title": "Menu midi",
+    "description": "",
+    "category": ["Lunch"],
+    "photo": {
+      "imageUrl": "../src/assets/menu/midi.jpg"
+    }
+  }
+]

@@ -2,13 +2,13 @@ version: '3'
 
 services:
   front:
-    container_name: svelte-front
+    container_name: niji
     restart: always
-    image: svelte-front-image
+    image: svelte-niji
     build:
       dockerfile: Dockerfile
       context: .
     volumes:
       - ".:/app"
     ports:
-      - "3000:3000"
+      - "80:3000"

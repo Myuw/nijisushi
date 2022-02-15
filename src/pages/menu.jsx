@@ -14,7 +14,7 @@ export default function Menu() {
 
         return acc;
       },
-      { "Midi & Soir": [], Midi: [] }
+      { "Midi & Soir": [], "Midi": [] }
     );
   };
 

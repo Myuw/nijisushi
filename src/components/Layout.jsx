@@ -5,7 +5,6 @@ function Layout({ children }) {
   return (
     <main className="home-grid">
       <Sidebar />
-      {/* {children} */}
       <main className="content-container">{children}</main>
 
       <style jsx global>{`

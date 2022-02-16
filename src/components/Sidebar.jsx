@@ -1,17 +1,12 @@
 import Nav from "./Nav.jsx";
-import { Link } from "solid-app-router";
 import navLogo from "../assets/logo.jpeg";
 
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <Link href="/">
-        <img src={navLogo} alt="Restaurant Logo" />
-      </Link>
-      <Nav />
+      <img src={navLogo} alt="Restaurant Logo" />
 
-      <footer className="main-footer">
-      </footer>
+      <Nav />
 
       <style jsx global>{`
         .sidebar {
